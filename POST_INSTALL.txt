@@ -1,5 +1,5 @@
 #Conectar no container
-docker exec -it nc_nginx bash
+docker exec -it nginx bash
 
 #Instalar pacotes necessários
 apt update && apt install -y vim certbot python3-certbot-nginx
